@@ -257,7 +257,7 @@ void loop()
 
   /*  if (sms.available()) {    // this part should be in loop()
   sms.remoteNumber(senderNumber, 20);
-  if (strcmp(senderNumber, "") == 0) { // compare numbers //Insert Sender Ph Number
+  if (strcmp(senderNumber, "") == 0) { // compare numbers //Insert sender Ph number
     while (sms.available() == 0);   // wait for a char
     char i = 0;
     while (i < MAX_MSG - 1){    // till max len is reached; 1 byte for null
